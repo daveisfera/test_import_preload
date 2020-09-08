@@ -1,0 +1,9 @@
+{
+  "name": "test_import_preload",
+  "main": "test.js",
+  "license": "Unlicense",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-specifier-resolution=node -r ./preload test.js"
+  }
+}
